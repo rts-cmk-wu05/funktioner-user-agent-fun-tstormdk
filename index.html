@@ -1,2 +1,46 @@
-<!-- Jeg skal have noget indhold 
-Husk semantikken -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Browsers</title>
+  <script src="https://kit.fontawesome.com/5d1d86b16f.js" crossorigin="anonymous"></script>
+  <style>
+    i{ font-size: 14em;}
+
+    .userBrowser{
+      color: rgb(158, 141, 65);
+    }
+    main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    margin: 10px;
+    flex: 1 1 calc(33.33% - 20px); /* flex-grow, flex-shrink, 
+                                      flex-basis: (width - margin) */
+}
+
+section i{
+    height: 150px;
+    width: 150px;
+}
+    
+  </style>
+</head>
+<body>
+  <h1>Browsere</h1>
+  <main>
+  <section><i class="fab fa-chrome Chrome"></i><h2>Google Chrome</h2></section>
+  <section><i class="fab fa-firefox-browser Firefox"></i><h2>Mozilla Firefox</h2></section>
+   <section><i class="fab fa-edge Edg"></i><h2>Microsoft Edge</h2></section>
+   <section><i class="fab fa-safari Safari"></i><h2>Apple Safari</h2></section>
+   <section><i class="fab fa-opera Opr"></i><h2>Opera</h2></section>
+    <section>
+    <p>En webbrowser, eller netlæser, er et computerprogram, der bruges til at hente og vise bl.a. HTML-dokumenter (websider) fra webservere rundt omkring i verden. En delmængde af internettet med disse dokumenter er kendt som World Wide Web.</p><p>
+
+Kommunikation mellem webserver og webbrowser foregår hovedsagelig med HTTP-protokollen. De fleste webbrowsere understøtter dog også andre protokoller, såsom FTP, gopher og HTTPS (en SSL-krypteret version af HTTP). </p></section>
+  </main>
+ <script src="startDel3_js.js"></script>
+</body>
+</html>
